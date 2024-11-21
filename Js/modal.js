@@ -26,7 +26,7 @@ export function modal(prod) {
                         <h5 class="modal-title mb-2">${prod.title} - $${prod.price}</h5>
                         <img src='${prod.image}' class="img-fluid" alt="${prod.title}">
                         <p class="card-text">${prod.description}</p>
-                        <button type="button" class="btn btn-success" id="buy-${prod.id}">Comprar</button>
+                        <button type="button" class="btn btn-success" id="buy-${prod.id}">Agregar al carrito</button>
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">X</button>
                     </div>
                 </div>
