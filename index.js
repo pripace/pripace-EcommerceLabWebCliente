@@ -11,3 +11,4 @@ document.addEventListener('DOMContentLoaded', () => {
     let btnSideBar = document.querySelector('#btnSideBar');
     btnSideBar.addEventListener('click', () => addToCart());
 });
+
