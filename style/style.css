@@ -1,6 +1,11 @@
 body {
     padding-top: 56px;
     background-color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+
 }
 
 #navbar {
@@ -29,7 +34,8 @@ body {
 /* Contenedor de imagen */
 .img-container {
     position: relative;
-    padding-top: 100%; /* Aspecto cuadrado */
+    padding-top: 100%;
+    /* Aspecto cuadrado */
     background: #f8f9fa;
     overflow: hidden;
 }

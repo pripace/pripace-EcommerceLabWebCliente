@@ -2,6 +2,7 @@ import { addToCart } from "./Js/cart.js";
 import { createCards } from "./Js/create-cards.js";
 
 document.addEventListener('DOMContentLoaded', () => {
+    
     createCards();
 
     if (localStorage.getItem('prodCart') === null) {
